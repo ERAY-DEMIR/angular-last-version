@@ -1,0 +1,53 @@
+.sign-in-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.register-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+.username {
+    margin-top: 5%;
+}
+
+.iti.iti--allow-dropdown.iti--show-flags.iti--inline-dropdown {
+    margin-bottom: 5%;
+}
+
+#phone {
+    width: 100%;
+    height: 50px;
+}
+
+.username, .email, .password, .address {
+    margin-bottom: 5%;
+    padding: 3%;
+}
+
+.submit-button {
+    margin-top: 5%;
+    padding: 3%;
+}
+
+@media screen and (min-width: 1025px) {
+    .main-page-image {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-page-image {
+        width: 70%;
+    }
+}

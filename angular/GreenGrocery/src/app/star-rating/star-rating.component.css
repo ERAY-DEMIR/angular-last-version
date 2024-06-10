@@ -1,0 +1,18 @@
+.filled {
+    color: gold;
+}
+
+.empty {
+    color: #ccc;
+}
+
+span {
+    cursor: pointer;
+}
+
+.filled,
+.empty {
+  font-size: 24px; /* Adjust size as needed */
+  cursor: pointer; /* Changes the cursor to a pointer to indicate it's clickable */
+  margin-right: 4px; /* Optional: Adds spacing between stars */
+}

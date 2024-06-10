@@ -1,0 +1,72 @@
+{
+    "produtcs_title": "Yeni Ürünler", 
+    "fruit_title": "Meyveler",
+    "vegetable_title": "Sebzeler",
+    "drink_title": "İçecekler",
+    "buy_now": "Satın Al",
+    "login": "Giriş Yap",
+    "location":  "Bizi ziyaret edin:\nExample.comBox 564,\nDisneyland\nUSA",
+    "about-us": "Hakkımızda",
+    "register": "Kaydol",
+    "light_mode": "Aydınlık Mod",
+    "dark_mode": "Karanlık Mod",
+    "products": {
+      "product1": {
+        "name": "Elma",
+        "description": "Bu elma Amasya'da yetişmiştir."
+      },
+      "product2": {
+        "name": "Ürün 2",
+        "description": "Açıklama 2"
+      },
+      "product3": {
+        "name": "Ürün 3",
+        "description": "Açıklama 3"
+      },
+      "product4": {
+        "name": "Ürün 4",
+        "description": "Açıklama 4"
+      }
+    },
+    "who_are_we_title": "Biz kimiz?",
+    "yusuf_seha_ozturk": "Yusuf Seha Öztürk, takımımızın saygın üyesi ve aramızdaki en genç kişi, işlerimize dinamik bir enerji ve taze bir bakış açısı getiriyor. Temel sorumluluğu, teslimat araçlarımızın titiz bakımı ve düzenidir. Detaylara olan keskin gözlem yeteneği ve proaktif yaklaşımı ile Yusuf, her bir aracın optimal durumda olmasını sağlar, yolculuktaki her türlü zorluğa hazır hale gelir. Görevi, rutin bakım görevlerinin ötesine uzanır; Yusuf ayrıca araç denetimleri, tamiratlar ve yükseltmeler için programlamayı da üstlenir. Teslimat rotalarını optimize etmek, verimliliği artırmak ve iş duraksamalarını en aza indirmek için lojistik ekibimizle sıkı bir şekilde işbirliği yapar. Çabaları, teslimat hizmetlerimizin sorunsuz ve güvenilir bir şekilde işlemesinde kilit rol oynar. Yusuf'un araç güvenliği ve performansına olan bağlılığı, müşterilere olağanüstü hizmet sunma taahhüdümüzle mükemmel bir şekilde uyum sağlar. Potansiyel sorunları tanımlama ve çözme konusundaki proaktif tutumu, profesyonellik ve güvenilirliğini yansıtır. Takımımız için değerli bir varlık olarak, Yusuf, siparişleri zamanında yerine getirme ve yüksek müşteri memnuniyeti standartlarını sürdürme yeteneğimize önemli ölçüde katkıda bulunur. Genişlemeye ve yeniliğe devam ettiğimiz sürece, Yusuf'un katkıları, teslimat operasyonlarımızı optimize etme ve müşterilerimizin artan taleplerini karşılama konusunda önemli olacaktır. Mükemmeliyet tutkusu ve fazladan adım atma isteği, onu takımımızın vazgeçilmez bir üyesi yapar, başarımızı sürdürür ve teslimat hizmetlerinde mükemmeliyetimizi pekiştirir.",
+    "eray_demir": "Eray Demir, takımımızın çok yönlü ve dinamik bir üyesi olarak, olağanüstü problem çözme becerileri ve zorluklara yaratıcı yaklaşımıyla tanınır. Mühendislik geçmişi ve yenilik tutkusu ile Eray, projelerimize benzersiz bir bakış açısı getirir, genellikle karmaşık sorunlara dahiyane çözümler bulur. Eray'ın uzmanlığı, durumları birden fazla açıdan analiz etme ve verimliliği ve etkinliği maksimize eden stratejiler geliştirme becerisinde yatar. Teknik bir sorunu ele alırken veya stratejik bir girişimde işbirliği yaparken, Eray'ın keskin zekası ve detaylara olan dikkati her zaman etkileyici sonuçlar verir. Teknik yeteneklerinin ötesinde, Eray, güçlü kişiler arası becerileri ve işbirliğine dayalı ruhu için de değerlidir. Çeşitli meslektaşlarının bakış açılarını kullanarak yeniliği teşvik etmek ve ortak hedeflere ulaşmak için takım ortamlarında gelişir. Eray'ın olumlu tutumu ve yardım elini uzatma isteği, onu takımımızın güvenilir ve saygın bir üyesi yapar. Profesyonel katkılarının yanı sıra, Eray, sürekli öğrenme ve kişisel gelişime olan bağlılığı ile de tanınır. Resmi eğitim, mesleki gelişim kursları veya deneyimli uygulamalar aracılığıyla becerilerini genişletmek için yeni zorluklar ve fırsatlar arar. Bu büyüme taahhüdü, Eray'ın kendi yeteneklerini artırmakla kalmaz, aynı zamanda etrafındakileri mükemmeliyet için çabalamaya teşvik eder. Genel olarak, Eray Demir, gerçek bir yenilikçi ve takım oyuncusunun niteliklerini temsil eder. Teknik uzmanlığı, yaratıcılığı ve işbirlikçi ruhu, onu takımımız için paha biçilmez bir varlık yapar, başarımızı sürdürür ve karşımıza çıkan her türlü engeli aşmamıza yardımcı olur.",
+    "hasan_bora_ulker": "Hasan Bora Ülker, dinamik ve çok yönlü bir birey olarak, takımımıza birçok yetenek ve uzmanlık getiren biridir. İşletme yönetimi alanında bir geçmişe ve girişimcilik tutkusuna sahip olan Hasan, ortaya çıkan fırsatları belirleme ve değerlendirme konusunda doğal bir yeteneğe sahip stratejik bir düşünürdür. Hasan'ın öne çıkan niteliklerinden biri, doğal liderlik yeteneğidir. Organizasyon dinamiklerinin derinlemesine anlayışına sahiptir ve takım üyelerini ortak hedeflere yönlendirmede ve motive etmede üstün bir performans sergiler. Bir proje yönetirken veya meslektaşlarıyla işbirliği yaparken, Hasan'ın güçlü iletişim becerileri ve işbirlikçi yaklaşımı, olumlu ve üretken bir çalışma ortamı sağlar. Liderlik becerilerinin yanı sıra, Hasan keskin bir analitik zihne ve problem çözme yeteneğine sahiptir. Dinamik ve hızlı tempolu ortamlarda başarılı olur, stratejik düşüncelerini ve uyum yeteneğini kullanarak zorlukları ele alır ve yenilikleri teşvik eder. Hasan'ın karmaşık sorunlara yaratıcı çözümler bulma yeteneği, takımımız için değerli bir varlıktır. Ayrıca, Hasan, girişimcilik ruhu ve yenilik tutkusu ile tanınır. Sürekli olarak yeni fikirler ve büyüme fırsatları keşfeder, yeni girişimler başlatma, stratejik ortaklıklar geliştirme veya yeni teknolojilerden yararlanma yoluyla büyümeyi hedefler. Hasan'ın ileri görüşlü zihniyeti ve hesaplı risk alma isteği, takımımızın yenilik ve büyümesinin önemli bir itici gücü olarak onu konumlandırır. Profesyonel başarılarının ötesinde, Hasan aynı zamanda dürüstlüğü, alçakgönüllülüğü ve pozitif bir etki yaratma konusundaki bağlılığı ile de takdir edilir. Etik iş uygulamalarına bağlıdır ve her yaptığı işte en yüksek dürüstlük ve profesyonellik standartlarını korumaya çalışır. Genel olarak, Hasan Bora Ülker, vizyoner bir lider, stratejik düşünür ve yenilikçi bir girişimci olup, takımımızın başarısını yönlendirmede kritik bir rol oynar. Liderliği, yaratıcılığı ve mükemmellik tutkusu, etrafındakileri yeni zirvelere ulaşmaya ve organizasyonumuzun misyonu ve hedeflerine anlamlı katkılarda bulunmaya teşvik eder.",
+    "batu_gulen": "Batu Gülen, takımımızın en büyüğü olarak, kolektif çabalarımıza büyük bir deneyim ve bilgelik getiriyor. En büyük üye olarak, Batu'nun takımımızdaki süresi, endüstrimizin inceliklerini derinlemesine anlayışı ve zorluklarını yönlendirme konusundaki deneyimli bakış açısı ile belirgindir. Rolü çok yönlüdür, mentorluk, stratejik rehberlik ve uyumlu bir takım ortamının sağlanması gibi unsurları içerir. Uzun yılların deneyimine sahip olan Batu, takım üyeleri için bilgi kaynağı olarak hizmet eder, yılların tecrübesinden elde edilen bilgileri sunar. Onun mentorluğu, teknik uzmanlıkla sınırlı değildir, liderlik, karar verme ve profesyonel büyüme konularında çok değerli dersler verir. Batu'nun varlığı, belirsizlik veya değişim zamanlarında özellikle istikrar ve güvence hissi sağlar. Mentorluk rolünün yanı sıra, Batu stratejik planlama ve karar alma süreçlerinde aktif olarak yer alır. Keskin analitik zekası ve stratejik öngörüsü, takımımızın büyümesini ve rekabet gücünü sürdürmeyi amaçlayan uzun vadeli planların ve girişimlerin geliştirilmesine katkıda bulunur. Batu'nun liderlik tarzı, pragmatizm, empati ve takım üyeleri arasında işbirliği ve karşılıklı saygıyı teşvik etme konusundaki bağlılığın bir karışımıyla karakterizedir. Ayrıca, Batu'nun etkisi sadece yakın takımımızla sınırlı değildir, aynı zamanda kuruluşumuzun tarihine ve geleneklerine bir köprü oluşturur. Endüstrimizin evrimine dair görüşleri, mevcut trendleri anlama ve gelecekteki gelişmeleri öngörebilme açısından değerli bir bağlam sağlar. Güvenilir bir danışman ve sırdaş olarak, Batu, takım kültürümüzü şekillendirme ve sürekli başarı yolculuğumuzu yönlendirme konusunda kilit bir rol oynar. Özünde, Batu Gülen, takım kimliğimizin merkezinde bulunan deneyim, dürüstlük ve liderlik değerlerini somut ve soyut katkılarıyla temsil eder. Hem somut hem de soyut katkıları, takımımızın yolunu şekillendirmede ve mükemmeliyeti sürdürme konusunda kararlı kalmasında etkilidir.",
+    "testimonials": {
+      "testimonial1": {
+        "username": "John Doe",
+        "description": "Ürünlerinizi çok seviyorum."
+      },
+      "testimonial2": {
+        "username": "Jane Doe",
+        "description": "Ürünlerinizi çok seviyorum."
+      },
+      "testimonial3": {
+        "username": "James Doe",
+        "description": "Ürünlerinizi çok seviyorum."
+      }
+    },
+    "testimonials_title": "Yorumlar",
+    "our_history_title": "Hikayemiz: Geleneğe Köklü, Geleceğe Doğru Büyüyoruz",
+    "title_1": "Bağ Kuran Başlangıçlar",
+    "text_1": "Topluluğumuzun kalbinde geleneğin tazelikle buluştuğu GoodFellas Manav'a hoş geldiniz. 1998'deki kuruluşumuzdan bu yana GoodFellas bir manavdan daha fazlası oldu; bir kalite işareti ve tarladan sofraya hareketinin savunucusu olmuştur. Taze, sürdürülebilir ürünlere yönelik ortak tutkuya sahip üç arkadaş tarafından kurulan mağazamız, yol kenarındaki mütevazı bir tezgahtan sevilen bir yerel kuruma dönüştü.",
+    "description_1": "Her şey, komşularımızın sofralarına ultra taze ürünler getirme fikrinin filizlendiği memleketimizin bereketli vadilerinde başladı. Sevgiyle \"İyi Dostlar\" olarak bilinen kurucularımız basit bir misyonla yola çıktı: yerel çiftçileri destekleyip çevreyi beslerken, yerel kaynaklı, organik meyve ve sebzelere erişim sağlamak.",
+    "title_2": "Topluluk Kökenli Büyüme",
+    "description_2": "Haber yayıldıkça ve talep arttıkça GoodFellas da arttı. Yol kenarındaki köklerimizden Ana Cadde'deki mevcut konumumuza geçiş yaparak topluluğun temel taşı haline geldik. Mağazamız, müşterilerin isimleriyle karşılandığı, ürünlerin menşeinin burada alışveriş yapan yerel halk kadar iyi bilindiği bir buluşma yeri haline geldi.",
+    "title_3": "Kalite ve Sürdürülebilirlik Taahhüdü",
+    "description_3": "GoodFellas'taki her meyve ve sebze parçası kaliteye olan bağlılığımızın bir kanıtıdır. Sürdürülebilir tarım felsefemizi paylaşan bölgesel çiftçilerle ortaklık kurduk. Bu ilişkileri güçlendirerek hem en taze ürünleri sunmayı hem de yerel ekonomiye katkıda bulunmayı ve ekolojik ayak izimizi azaltmayı sağlıyoruz.",
+    "title_4": "Sağlıklı Bir Gelecek İçin İnovasyon",
+    "description_4": "Geleceğe bakan GoodFellas yeniliklere devam ediyor. Tekliflerimizi, yerel üreticilerden gelen organik el yapımı ürünleri, yemek pişirme derslerine ev sahipliği yapmayı ve önde gelen topluluk sağlıklı yaşam etkinliklerini içerecek şekilde genişletiyoruz. Sıfır atık programımız ve güneş enerjisiyle çalışan teslimat hizmetlerimiz gibi son girişimlerimiz, çevre yönetimine yönelik süregelen kararlılığımızın altını çiziyor.",
+    "title_5": "Yolculuğumuza Katılın",
+    "description_5": "Bu anlatım, yalnızca GoodFellas Manav'ın kökenlerini ve büyümesini ayrıntılarıyla anlatmakla kalmıyor, aynı zamanda müşterilerinizle duygusal bağ kurmayı ve markanıza olan bağlılıklarını güçlendirmeyi amaçlayan temel değerlerini ve gelecekteki yönünü de vurguluyor.",
+    "who_are_we": "Biz Kimiz?",
+    "address": "Adres",
+    "our_history":"Hikayemiz",
+    "testimonialsmenu":"Yorumlar",
+    "get_help": "Yardım Alın",
+    "shipping_title": "Kapınıza Gelen Tazelik",
+    "shipping_text": "GoodFellas Green Grocery olarak zamanınızın değerli olduğunu ve taze, sağlıklı ürünlere erişimin bir öncelik olduğunu anlıyoruz. Bu nedenle pazarımızın en taze meyve ve sebzelerini doğrudan evinize getiren kişiselleştirilmiş, çevre dostu bir teslimat hizmeti sunmaktan mutluluk duyuyoruz.",
+    "shipping": "Nakliyat"
+  }
+  

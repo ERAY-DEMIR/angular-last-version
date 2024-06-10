@@ -1,0 +1,15 @@
+<div class="login-page">
+  <h1 class="main-title">Goodfellas Local Grocery</h1>
+  <div class="main-container">
+    <div class="image-and-information-containers">
+      <img class="main-page-image" src="assets/img/seniors-side-gigs-5.png">
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" class="login-container">
+        <input class="username" type="text" placeholder="Username" formControlName="username" required>
+        <input class="password" type="password" placeholder="Password" formControlName="password" required>
+        <button type="submit" class="login-button">Login</button>
+        <a class="login-linked-text" [routerLink]="'/forgot-your-password'">Forgot your password?</a>
+        <a class="login-linked-text" [routerLink]="'/not-registered-sign-in'">Not registered? Sign in.</a>
+      </form>
+    </div>
+  </div>
+</div>

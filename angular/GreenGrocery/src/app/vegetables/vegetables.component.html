@@ -1,0 +1,24 @@
+<section class="vegetables">
+  <div class="container">
+    <h1>Title</h1>
+    <ul>
+      <li *ngFor="let vegetable of vegetables" class="card">
+        <div class="card">
+          <div class="card-content" [ngStyle]="{'background-color': isDarkTheme ? '#5eda5e' : '#3b5d2d'}">
+            <img class="product-image" [src]="vegetable.image" alt="{{ vegetable.productName }}">
+            <h2 class="product-title" [ngStyle]="{'color': isDarkTheme ? '#000000' : '#ffffff'}">{{ vegetable.productName | translate }}</h2>
+            <p class="product-description" [ngStyle]="{'color': isDarkTheme ? '#000000' : '#ffffff'}">{{ vegetable.description | translate }}</p>
+            <p class="product-price" [ngStyle]="{'color': isDarkTheme ? '#000000' : '#ffffff'}">{{ vegetable.discountedPrice | currency:'USD':'symbol':'1.2-2' }}</p>
+            <div class="button-product">
+              <button class="buy-now"
+              [ngStyle]="{'background-color': isDarkTheme ? '#3b5d2d' : '#5eda5e', 'color': isDarkTheme ? '#ffffff' : '#000000'}"
+              (click)="addToCart(vegetable)">
+              {{ 'buy_now' | translate }}
+            </button>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>

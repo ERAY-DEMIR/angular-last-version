@@ -1,0 +1,45 @@
+@media screen and (max-width: 767px) {
+    .main-image {
+        width: 75%;
+    }
+
+    textarea {
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main-image {
+        width: 50%;
+    }
+
+    textarea {
+        height: 300px;
+    }
+}
+
+.testimonials-title {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    margin-bottom: 5%;
+}
+
+textarea {
+    width: 50%;
+    padding: 1%;
+}

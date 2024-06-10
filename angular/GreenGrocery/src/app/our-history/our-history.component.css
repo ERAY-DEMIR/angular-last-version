@@ -1,0 +1,85 @@
+.img-1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.main-description {
+    padding: 3%;
+    font-size: 24px;
+}
+
+.main-1 {
+    border-radius: 3%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .main-1 {
+        width: 50%;
+    }
+
+    .one, .two, .three, .four, .five {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-1, .image-2, .image-3, .image-4, .image-5 {
+        width: 70%;
+        border-radius: 3%;
+    }
+
+    .content-1, .content-2, .content-3, .content-4, .content-5 {
+        padding: 5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main-1 {
+        width: 50%;
+    }
+
+    .one, .two, .three, .four, .five {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-1, .image-2, .image-3, .image-4, .image-5 {
+        width: 70%;
+        border-radius: 3%;
+    }
+
+    .content-1, .content-2, .content-3, .content-4, .content-5 {
+        padding: 5%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .image-1, .image-2, .image-3, .image-4, .image-5 {
+        width: 25%;
+        border-radius: 3%;
+    }
+
+    .one, .three, .five {
+        display: flex;
+        padding: 5%;
+        gap: 5%;
+        font-size: 24px;
+    }
+    
+    .two, .four {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 5%;
+        font-size: 24px;
+        gap: 5%;
+    }
+}

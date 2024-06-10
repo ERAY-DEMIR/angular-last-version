@@ -1,0 +1,20 @@
+.testimonials-title {
+    text-align: center;
+    font-size: 36px;
+}
+
+.testimonial-content {
+    width: 50%;
+    margin-left: 20%;
+    padding: 10%;
+    border-radius: 5%;
+}
+
+.username-image {
+    width: 50%;
+    border-radius: 10%;
+}
+
+.slider-testimonial {
+    margin-bottom: 5%;
+}

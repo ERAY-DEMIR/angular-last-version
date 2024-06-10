@@ -1,0 +1,72 @@
+<footer class="footer" [ngClass]="{'dark-theme-mode':isDarkTheme}">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4> {{ 'address' | translate}} </h4>
+                <ul>
+                    <li>
+                        <address>
+                            {{ 'location' | translate }}
+                        </address>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>{{ 'about-us' | translate }}</h4>
+                <ul>
+                    <li>
+                        <a [routerLink]="'/who-are-we'">{{ 'who_are_we' | translate }}</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/our-history'">{{ 'our_history' | translate }}</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/testimonial-comment'">{{ 'testimonialsmenu' | translate }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>{{ 'get_help' | translate}}</h4>
+                <ul>
+                    <li>
+                        <a [routerLink]="'/shipping'">{{ 'shipping' | translate }}</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/product-safety'">Product Safety</a>
+                    </li>
+                    <li>
+                        <a [routerLink]="'/ordering-policy'">Ordering Policy</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>FAQ</h4>
+                <ul>
+                    <li>
+                        <a>Refund Policy</a>
+                    </li>
+                    <li>
+                        <a>Return Policy</a>
+                    </li>
+                    <li>
+                        <a>Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a>Quality Questioning</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <ul>
+                    <li>
+                        <p>Phone Number: +1 111 111 111</p>
+                    </li>
+                    <li>
+                        <p>Email:</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>

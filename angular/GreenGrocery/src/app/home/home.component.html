@@ -1,0 +1,27 @@
+<section>
+  <div class="container">
+    <h1 class="products-title">{{ 'products_title' | translate }}</h1>
+    <div class="slider">
+      <owl-carousel-o [options]="customOptions">
+        <ng-template carouselSlide *ngFor="let product of products">
+          <div class="card">
+            <div class="card-content" [ngStyle]="{'background-color': isDarkTheme ? '#5eda5e' : '#3b5d2d'}">
+              <img class="product-image" [src]="product.image" alt="{{ product.productName }}">
+              <h2 class="product-title" [ngStyle]="{'color': isDarkTheme ? '#000000' : '#ffffff'}">{{ product.productName }}</h2>
+              <p class="product-description" [ngStyle]="{'color': isDarkTheme ? '#000000' : '#ffffff'}">{{ product.description }}</p>
+              <p class="product-price" [ngStyle]="{'color': isDarkTheme ? '#000000' : '#ffffff'}">{{ product.discountedPrice | currency:'USD' }}</p>
+              <div class="button-product">
+                <button class="buy-now"
+                  [ngStyle]="{'background-color': isDarkTheme ? '#3b5d2d' : '#5eda5e', 'color': isDarkTheme ? '#ffffff' : '#000000'}"
+                  (click)="addToCart(product)">
+                  {{ 'buy_now' | translate }}
+                </button>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </owl-carousel-o>
+    </div>
+  </div>
+  <app-testimonial></app-testimonial>
+</section>

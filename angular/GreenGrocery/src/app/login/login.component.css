@@ -1,0 +1,93 @@
+.login-container {
+    display: grid;
+    transform: translate(-50%, 10%);
+    width: 20%;
+    position: relative;
+    left: 50%;
+    gap: 5%;
+}
+
+.main-container {
+    margin-bottom: 10%;
+}
+
+.main-title {
+    text-align: center;
+    color: white;
+}
+
+.username, .email, .password {
+    border: transparent;
+    padding: 5%;
+    border-radius: 5px;
+    background: white;
+}
+
+.main-page-image {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 5px;
+}
+
+.login-linked-text {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.login-page {
+    display: block;
+}
+
+.login-button {
+    background-color: white;
+    color: #5eda5e;
+    font-weight: bold;
+    border: transparent;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1025px) {
+    .main-page-image {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .main-page-image {
+        width: 60%;
+    }
+
+    .login-page {
+        height: 60%;
+        padding-bottom: 16%;
+    }
+
+    .main-title {
+        font-size: 24px;
+    }
+
+    .login-container {
+        transform: translate(-50%, 10%);
+        width: 20%;
+        position: relative;
+        left: 43%;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .login-page {
+        height: 65%;
+        padding-bottom: 16%;
+    }
+
+    .main-page-image {
+        width: 80%;
+    }
+}

@@ -1,0 +1,66 @@
+<header>
+    <nav class="navigation" [ngClass]="{'dark-theme-mode':isDarkTheme}">
+      <ul class="nav-bar" [ngClass]="{'dark-theme-mode':isDarkTheme}">
+        <li>
+          <a [routerLink]="'/home'">
+            <img class="logo" src="assets/img/goodfellas-logo.png">
+          </a>
+        </li>
+        <input type="checkbox" id="check">
+        <span class="menu">
+          <li>
+            <a class="fruit-link" [routerLink]="'/fruits'">
+              <img class="fruit-icon" src="assets/img/fruit.png">{{ 'fruit_title' | translate }}
+            </a>
+          </li>
+          <li>
+            <a class="vegetable-link" [routerLink]="'/vegetables'">
+              <img class="vegetable-icon" src="assets/img/vegetable.png">{{ 'vegetable_title' | translate }}
+            </a>
+          </li>
+          <li>
+            <a class="drink-link" [routerLink]="'/drinks'">
+              <img class="drink-icon" src="assets/img/water.png">{{ 'drink_title' | translate }}
+            </a>
+          </li>
+          <li *ngIf="!isAuthenticated">
+            <a [routerLink]="'/login'">
+              <img class="login-icon" src="assets/img/login.png">{{ 'login' | translate }}
+            </a>
+          </li>
+          <li *ngIf="!isAuthenticated">
+            <a [routerLink]="'/not-registered-sign-in'">
+              <img class="register-icon" src="assets/img/register.png">{{ 'register' | translate }}
+            </a>
+          </li>
+          <li *ngIf="isAuthenticated" class="authlog">
+            <span>Welcome, {{ username }}</span>
+            <button class="logout-button" (click)="logout()">Logout</button>
+          </li>
+          <li>
+            <div class="cart-icon" [routerLink]="'/shopping-cart'">
+              <i class="fa fa-shopping-cart" style="color: rgb(94, 218, 94);"></i>
+            </div>
+          </li>
+          <li>
+            <form class="languages">
+              <label for="language">Language/Dil:</label>
+              <select class="form-select" (change)="ChangeLang($event)" id="languageSelect" [ngClass]="{'dark-theme-mode':isDarkTheme}">
+                <option [value]="'en'" [selected]="translate.currentLang === 'en'">English</option>
+                <option [value]="'tr'" [selected]="translate.currentLang === 'tr'">Türkçe</option>
+              </select>
+            </form>
+          </li>
+          <li>
+            <mat-slide-toggle [(ngModel)]="isDarkTheme" labelPosition="before" (change)="storeThemeSelection()">
+              <img [src]="isDarkTheme ? dark_mode : light_mode" alt="Theme Image">
+            </mat-slide-toggle>
+          </li>
+          <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+        </span>
+        <label for="check" class="open-menu">
+          <i class="fas fa-bars"></i>
+        </label>
+      </ul>
+    </nav>
+  </header>

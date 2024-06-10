@@ -1,0 +1,20 @@
+.safety-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.safety-image {
+    border-radius: 5%;
+}
+
+.safety-text {
+    padding: 2%;
+}
+
+h3 {
+    font-size: 36px;
+    text-align: center;
+}

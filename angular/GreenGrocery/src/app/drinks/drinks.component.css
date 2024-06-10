@@ -1,0 +1,107 @@
+img {
+    border-radius: 5%;
+    width: 50%;
+}
+
+.drink-card {
+    width: 300px;
+    padding: 3%;
+    border-radius: 5%;
+    list-style: none;
+}
+
+.card {
+    width: 300px;
+    border-radius: 5%;
+    list-style: none;
+  }
+
+  .card {
+    border-radius: 5%;
+  }
+
+  .card-content {
+    padding: 20px;
+    border-radius: 5%;
+  }
+
+ul {
+    padding-bottom: 5%;
+}
+
+.button-drink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+  }
+
+  .variants-scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .buy-now {
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 18px;
+    border-radius: 5%;
+    border: transparent;
+  }
+
+  .variant-image {
+    width: 25% !important;
+    border-radius: 5%;
+    }
+
+    .variants-scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    }
+  
+    .variants-images {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    }
+
+.slider {
+    overflow-x: auto; 
+}
+
+.list-element {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+
+  .button-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+  }
+@media screen and (min-width: 1025px) {
+    ul {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 3%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    ul {
+        display: grid;
+        grid-template-columns: auto;
+        gap: 3%;
+    }
+
+    .drink-card {
+        padding: 10%;
+        border-radius: 5%;
+        list-style: none;
+        width: 210px;
+    }
+}

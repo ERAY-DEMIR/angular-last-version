@@ -1,0 +1,25 @@
+<div class="container">
+  <h1>Shopping Cart</h1>
+  <div *ngIf="cartItems.length === 0; else cartItemsList">
+    <p>Your cart is empty.</p>
+  </div>
+  <ng-template #cartItemsList>
+    <div *ngFor="let item of cartItems" class="cart-item">
+      <div class="item-info">
+        <img [src]="item.product.image" alt="Product Image" class="product-image">
+        <div class="item-details">
+          <h3>{{ item.product.productName }}</h3>
+          <p>{{ item.product.description }}</p>
+          <p>Price: {{ item.price | currency:'USD':'symbol':'1.2-2' }}</p>
+          <div class="quantity-control">
+            <button (click)="decreaseQuantity(item)" [disabled]="item.quantity === 1">-</button>
+            <span>{{ item.quantity }}</span>
+            <button (click)="increaseQuantity(item)">+</button>
+          </div>
+        </div>
+      </div>
+      <button (click)="removeFromCart(item.product.productId)" class="remove-button">Remove</button>
+    </div>
+  </ng-template>
+  <button *ngIf="cartItems.length > 0" (click)="confirmCheckout()" class="checkout-button">Checkout</button>
+</div>

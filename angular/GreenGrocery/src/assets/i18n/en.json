@@ -1,0 +1,72 @@
+{
+    "produtcs_title": "New Arrivals", 
+    "fruit_title": "Fruits",
+    "vegetable_title": "Vegetables",
+    "drink_title": "Drinks",
+    "buy_now": "Buy Now",
+    "login": "Login",
+    "location":  "Visit us:\nExample.comBox 564,\nDisneyland\nUSA",
+    "about-us": "About us",
+    "register": "Register",
+    "light_mode": "Light Mode",
+    "dark_mode": "Dark Mode",
+    "products": {
+      "product1": {
+        "name": "Apple",
+        "description": "This is an apple from Amasya."
+      },
+      "product2": {
+        "name": "Product 2",
+        "description": "Description 2"
+      },
+      "product3": {
+        "name": "Product 3",
+        "description": "Description 3"
+      },
+      "product4": {
+        "name": "Product 4",
+        "description": "Description 4"
+      }
+    },
+    "who_are_we_title": "Who are we?",
+    "yusuf_seha_ozturk": "Yusuf Seha Öztürk, our esteemed team member and the youngest among us, brings a dynamic energy and a fresh perspective to our operations. His primary responsibility revolves around the meticulous upkeep and maintenance of our fleet of delivery vehicles. With a keen eye for detail and a proactive approach, Yusuf ensures that each vehicle is in optimal condition, ready to navigate through any challenges on the road. His role extends beyond routine maintenance tasks; Yusuf also oversees scheduling for vehicle inspections, repairs, and upgrades. He collaborates closely with our logistics team to streamline delivery routes, enhance efficiency, and minimize downtime. His efforts play a pivotal role in ensuring that our delivery services operate smoothly and reliably. Yusuf's dedication to vehicle safety and performance aligns seamlessly with our commitment to delivering exceptional service to our customers. His proactive stance in identifying and addressing potential issues before they escalate reflects his professionalism and reliability. As a valuable asset to our team, Yusuf contributes significantly to our ability to fulfill orders promptly and maintain high standards of customer satisfaction. As we continue to expand and innovate, Yusuf's contributions will be instrumental in optimizing our delivery operations and meeting the growing demands of our customers. His passion for excellence and his willingness to go the extra mile make him an invaluable member of our team, driving our success and reinforcing our reputation for excellence in delivery services.        ",
+    "eray_demir": "Eray Demir is a versatile and dynamic member of our team, known for his exceptional problem-solving skills and creative approach to challenges. With a background in engineering and a passion for innovation, Eray brings a unique perspective to our projects, often finding ingenious solutions to complex problems. Eray's expertise lies in his ability to analyze situations from multiple angles and devise strategies that maximize efficiency and effectiveness. Whether he's tackling a technical issue or collaborating on a strategic initiative, Eray's sharp intellect and attention to detail consistently yield impressive results. Beyond his technical acumen, Eray is also valued for his strong interpersonal skills and collaborative spirit. He thrives in team environments, where he can leverage the diverse perspectives of his colleagues to drive innovation and achieve shared goals. Eray's positive attitude and willingness to lend a helping hand make him a trusted and respected member of our team. In addition to his professional contributions, Eray is known for his dedication to continuous learning and personal growth. He actively seeks out new challenges and opportunities to expand his skills, whether through formal education, professional development courses, or hands-on experimentation. This commitment to growth not only enhances Eray's own capabilities but also inspires those around him to strive for excellence. Overall, Eray Demir embodies the qualities of a true innovator and team player. His technical expertise, creativity, and collaborative spirit make him an invaluable asset to our team, driving our success and helping us overcome any obstacles that come our way.",
+    "hasan_bora_ulker": "Hasan Bora Ülker is a dynamic and multifaceted individual who brings a wealth of talent and expertise to our team. With a background in business administration and a passion for entrepreneurship, Hasan is a strategic thinker with a knack for identifying and capitalizing on emerging opportunities. One of Hasan's standout qualities is his natural leadership ability. He has a keen understanding of organizational dynamics and excels at motivating and guiding team members toward common objectives. Whether he's leading a project or collaborating with colleagues, Hasan's strong communication skills and collaborative approach foster a positive and productive working environment. In addition to his leadership skills, Hasan possesses a sharp analytical mind and a talent for problem-solving. He thrives in dynamic and fast-paced environments, where he can leverage his strategic thinking and adaptability to address challenges and drive innovation. Hasan's ability to think outside the box and find creative solutions to complex problems is a valuable asset to our team. Moreover, Hasan is known for his entrepreneurial spirit and passion for innovation. He is constantly exploring new ideas and opportunities for growth, whether it's through launching new initiatives, developing strategic partnerships, or leveraging emerging technologies. Hasan's forward-thinking mindset and willingness to take calculated risks position him as a driving force behind our team's innovation and growth. Beyond his professional accomplishments, Hasan is also admired for his integrity, humility, and dedication to making a positive impact. He is committed to ethical business practices and strives to uphold the highest standards of integrity and professionalism in everything he does. Overall, Hasan Bora Ülker is a visionary leader, strategic thinker, and innovative entrepreneur who plays a crucial role in driving our team's success. His leadership, creativity, and passion for excellence inspire those around him to reach new heights and make meaningful contributions to our organization's mission and goals.",
+    "batu_gulen": "Batu Gülen, the esteemed elder statesman of our team, brings a wealth of experience and wisdom to our collective endeavors. As the eldest member, Batu's tenure with our team is marked by a deep understanding of our industry's intricacies and a seasoned perspective on navigating its challenges. His role is multifaceted, encompassing mentorship, strategic guidance, and the fostering of a cohesive team environment. With decades of experience under his belt, Batu serves as a beacon of knowledge for our team members, offering insights gained from years of hands-on experience. His mentorship extends beyond technical expertise, as he imparts invaluable lessons on leadership, decision-making, and professional growth. Batu's presence provides a sense of stability and reassurance, particularly during times of uncertainty or change. In addition to his mentorship role, Batu is actively involved in strategic planning and decision-making processes. His keen analytical mind and strategic foresight contribute to the development of long-term plans and initiatives aimed at sustaining our team's growth and competitiveness in the market. Batu's leadership style is characterized by a blend of pragmatism, empathy, and a commitment to fostering collaboration and mutual respect among team members. Moreover, Batu's influence extends beyond our immediate team, as he represents a bridge to our organization's history and traditions. His insights into the evolution of our industry provide valuable context for understanding current trends and anticipating future developments. As a trusted advisor and confidant, Batu plays a pivotal role in shaping our team's culture and guiding our collective journey toward continued success. In essence, Batu Gülen embodies the values of experience, integrity, and leadership that are central to our team's identity. His contributions, both tangible and intangible, are instrumental in shaping our team's trajectory and ensuring that we remain steadfast in our pursuit of excellence.",
+    "testimonials": {
+      "testimonial1": {
+        "username": "John Doe",
+        "description": "I really love your products."
+      },
+      "testimonial2": {
+        "username": "Jane Doe",
+        "description": "I really love your products."
+      },
+      "testimonial3": {
+        "username": "John Doe",
+        "description": "I really love your products."
+      }
+    },
+    "testimonials_title": "Testimonials",
+    "our_history_title": "Our Story: Rooted in Tradition, Growing Toward the Future",
+    "title_1": "Beginnings That Built Bonds",
+    "text_1": "Welcome to GoodFellas Greengrocery, where tradition meets freshness in the heart of our community. Since our inception in 1998, GoodFellas has been more than just a greengrocery; it has been a beacon of quality and an advocate for the farm-to-table movement. Founded by a trio of friends with a shared passion for fresh, sustainable produce, our store has grown from a modest roadside stand into a beloved local institution.",
+    "description_1": "It all began in the fertile valleys of our hometown, where the idea of bringing ultra-fresh produce to our neighbors' tables sprouted. Our founders, known affectionately as \"The Good Fellas,\" started with a simple mission: to provide access to locally sourced, organic fruits and vegetables, while supporting local farmers and nurturing the environment.",
+    "title_2": "Growth Rooted in Community",
+    "description_2": "As word spread and demand grew, so did GoodFellas. We transitioned from our roadside roots to our current location on Main Street, becoming a cornerstone of the community. Our store has become a gathering place where customers are greeted by name, and where the origins of the produce are as well known as the locals who shop here.",
+    "title_3": "A Commitment to Quality and Sustainability",
+    "description_3": "Every piece of fruit and vegetable at GoodFellas is a testament to our commitment to quality. We've partnered with regional farmers who share our philosophy of sustainable agriculture. By fostering these relationships, we ensure that not only do we offer the freshest produce, but we also contribute to the local economy and reduce our ecological footprint.",
+    "title_4": "Innovating for a Healthy Future",
+    "description_4": "Looking to the future, GoodFellas continues to innovate. We're expanding our offerings to include organic artisanal products from local producers, hosting cooking classes, and leading community wellness events. Our recent initiatives, such as our zero-waste program and solar-powered delivery services, underscore our ongoing commitment to environmental stewardship.",
+    "title_5": "Join Our Journey",
+    "description_5": "This narrative not only details the origins and growth of GoodFellas Greengrocery but also highlights its core values and future direction, aiming to connect emotionally with your customers and reinforce their loyalty to your brand.",
+    "who_are_we": "Who Are We?",
+    "address": "Address",
+    "our_history":"Our History",
+    "testimonialsmenu":"Testimonials",
+    "get_help": "Get Help",
+    "shipping_title": "Freshness Delivered to Your Doorstep",
+    "shipping_text": "At GoodFellas Green Grocery, we understand that your time is valuable and access to fresh, wholesome produce is a priority. That’s why we’re delighted to offer a personalized, eco-friendly delivery service that brings our market’s freshest fruits and vegetables directly to your home.",
+    "shipping": "Shipping"
+  }
+  

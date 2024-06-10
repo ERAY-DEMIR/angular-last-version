@@ -1,0 +1,11 @@
+<div class="img-container">
+    <img class="main-image" src="assets/img/testimonials.png">
+</div>
+<app-testimonial></app-testimonial>
+<div class="content">
+    <h3 class="testimonials-title">Want to share your comments with our team? Please don't hesitate.</h3>
+    <textarea required></textarea>
+    <!-- tıklamalı yıldız-->
+    <app-star-rating (onRated)="changeRating($number)"></app-star-rating>
+    <button class="submit" type="submit">Submit</button>
+</div>

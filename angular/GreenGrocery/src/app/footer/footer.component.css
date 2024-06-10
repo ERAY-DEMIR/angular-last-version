@@ -1,0 +1,48 @@
+.footer {
+    background: white;
+    width: 100%;
+}
+
+.footer.dark-theme-mode {
+    background: #4d4d4d;
+}
+
+a, address, p, h4 {
+    text-decoration: none;
+    color: #5eda5e;
+    font-weight: bold;    
+}
+
+address {
+    width: 70%;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0;
+}
+
+.row { 
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col {
+    width: 20%;
+    padding: 1%;
+}
+
+@media screen and (max-width: 767px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .footer-col {
+        width: auto;
+        padding-left: 10%;
+    }
+}

@@ -1,0 +1,93 @@
+li {
+    list-style: none;
+}
+
+p {
+    padding: 5%;
+}
+
+.assosciate-image {
+    border-radius: 5%;
+}
+
+.who-are-we-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    li {
+        flex-direction: column;
+    }
+
+    .assosciate-image {
+        width: 60%;
+    }
+
+    ul {
+        overflow-x: hidden;
+    }
+
+    .yusuf-seha-ozturk, .eray-demir, .hasan-bora-ulker, .batu-gulen {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .who-are-we-image {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .yusuf-seha-ozturk, .hasan-bora-ulker{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .eray-demir, .batu-gulen {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .assosciate-image  {
+        width: 50%;
+    }
+
+    .who-are-we-image {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .assosciate-image  {
+        width: 20%;
+    }
+
+    .eray-demir, .batu-gulen {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row-reverse;
+    }
+
+    .yusuf-seha-ozturk, .hasan-bora-ulker {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .who-are-we-image {
+        width: 50%;
+    }
+}

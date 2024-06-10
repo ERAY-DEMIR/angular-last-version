@@ -1,0 +1,81 @@
+:host {
+  ::ng-deep .owl-stage {
+    display: flex;
+  }
+
+  .product-image {
+    width: 60%;
+    border-radius: 5%;
+  }
+
+  .card {
+    width: calc(63.33% - 20px);
+    margin: 10px;
+  }
+
+  .card-content {
+    padding: 20px;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.products-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.owl-carousel .owl-item {
+  flex: 1 0 auto; /* This might force items to be larger or smaller */
+}
+
+.slider {
+  overflow-x: auto; 
+}
+
+.variant-image {
+    width: 25% !important;
+    border-radius: 5%;
+}
+
+.variants-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+  
+.variants-images {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+  
+.list-element {
+  display: inline-block;
+  margin-right: 10px;
+}
+  
+.button-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.buy-now {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 30%;
+  padding-right: 30%;
+  font-size: 18px;
+  border-radius: 5%;
+  border: transparent;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
